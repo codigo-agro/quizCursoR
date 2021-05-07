@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_01/pages/home.page.dart';
+import 'package:quiz_01/pages/splash.screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: MyHomePage(),
-
+      home: SplashScreenPage(),
     );
   }
 }
